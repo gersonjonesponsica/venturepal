@@ -1,0 +1,59 @@
+body {
+  padding:50px;
+  font-family:arial, san-serif;
+}
+.accordion H2 A{
+	padding: 10px 20px;
+	font-size: 0.9em;
+	background: #000;
+	border-bottom: 1px solid #E1E1E1;
+	display: block;
+	text-decoration: none;
+	margin-bottom: 0;
+	color: #fff;
+}
+.accordion H2{
+	margin: 0;
+
+}
+.accordion P {
+	margin: 24px 0;
+}
+.accordion
+{
+	margin-top: 34px;
+}
+.inner{
+border:thin dotted #ccc;
+}
+.accordion + H1
+{
+	margin-top: 64px;
+}
+.accordion H2 A:before
+{
+	content: '+';
+	margin-right: 16px;
+	font-family: arial;
+	font-weight: normal;
+	width: 5px;
+	display: inline-block;
+}
+.accordion H2 A.selected:before
+{
+	content: '-';
+	margin-right: 16px;
+	font-family: arial;
+	font-weight: normal;
+	width: 5px;
+	display: inline-block;
+}
+.accordion .inner
+{
+	padding: 10px 20px;
+  background:#ececec
+}
+A.selected
+{
+	color: red !important;
+}

@@ -1,0 +1,207 @@
+ .facebook{
+  background: #4A66B4;
+  transition: .3s ease;
+  width: 100%;
+  height: 50px;
+
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+  letter-spacing: .1rem;
+  font-weight: 100;
+  text-align: center;
+  vertical-align: middle;
+
+ }
+.facebook a {
+  color: white;
+}
+
+ .facebook:hover,  .facebook:active,  .facebook:focus {
+  opacity:0.8;
+}
+
+/*h1 {
+  font-size: 1.2rem;
+   color: #21B08A;
+}*/
+
+.content {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+
+
+.wrapper {
+  position: relative;
+  width: 600px;
+  margin: 100px auto;
+  background: #FFF;
+  border: 1px solid #D9D9DE;
+}
+@media screen and (max-width: 750px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+.registred {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  background: #FFF;
+  display: none;
+  margin: 50px auto;
+  text-align: center;
+}
+.registred button {
+  width: 100px;
+  background: #4184F3;
+  border: none;
+  padding: 7px 15px;
+  position: absolute;
+  bottom: 18px;
+
+  right: 18px;
+  color: #FFF;
+}
+.registred h1 {
+  font-size: 1rem;
+}
+
+
+.register--content, .login--content {
+  width: 500px;
+  margin: 70px auto;
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 0px;
+  top: 20px;
+  font-size: 11px;
+  color: #B3BBCE;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+.email, .password, .name {
+  position: relative;
+  margin: 10px 0;
+}
+
+
+
+.social {
+  width: 100%;
+  background: #3B5999;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.social a {
+  text-decoration: none;
+  color: #FFF;
+}
+.social span i {
+  color: #fff;
+  float: left;
+  line-height: 45px;
+  margin-left: 26px;
+}
+
+.via-email {
+  text-align: center;
+  padding: 20px 0;
+  color: #8291AC;
+}
+
+input[type="submit"] {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  background-color: #21B08A;
+  color: #fff;
+
+/*  margin: 15px 0 16px;*/
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  letter-spacing: .1rem;
+  font-weight: 100;
+}
+
+.login--button {
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+.login--button a {
+  background: #4184F3;
+  padding: 7px 14px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.login {
+  display: none;
+}
+
+
+ .container-content {
+  width: 500px;
+  margin: 70px auto;
+}
+
+@media screen and (max-width: 750px) {
+  .wrapper {
+    width: 90%;
+  }
+  .big-wrapper {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 100%;
+  }
+  .big-wrapper {
+    width: 100%;
+  }
+}
+.big-container-content{
+    width: 700px;
+    margin: 70px auto;
+}
+
+.big-wrapper {
+  position: relative;
+  width: 800px;
+  margin: 100px auto;
+  background: #FFF;
+  border: 1px solid #D9D9DE;
+}
+
+.wrapper {
+  position: relative;
+  width: 600px;
+  margin: 100px auto;
+  background: #FFF;
+  border: 1px solid #D9D9DE;
+}

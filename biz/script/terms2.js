@@ -1,0 +1,1 @@
+$(function(){var e=[];e.push({name:"type",value:1}),e.push({name:"action",value:"Get Terms"}),$.ajax({type:"POST",url:"../../bizsh.admin/controller/TermsController.php",data:e,success:function(e){var a=JSON.parse(jQuery.trim(e));$("#terms").html(a.terms),$("#loadthis").removeClass("loader-show")}})});

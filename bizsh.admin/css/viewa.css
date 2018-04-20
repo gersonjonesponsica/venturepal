@@ -1,0 +1,62 @@
+
+.view2 {
+    background: url("http://mdbootstrap.com/img/Photos/Horizontal/City/full%20page/img%20(1).jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     height: 50%;
+}
+.count{
+	width: 100%;
+	height: 50%;
+  	background: url("http://mdbootstrap.com/img/Photos/Horizontal/City/full%20page/img%20(1).jpg")no-repeat center center fixed;
+}
+
+#container {
+    width:100%;
+    text-align:center;
+}
+
+#left {
+    float:left;
+    height: 50%;
+    background: #000;
+    top: 20%;
+    left: 8%;
+    background: rgba(0,0,0,.4);
+    color: white;
+
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    height: 50%;
+    background: rgba(0,0,0,.3);
+    top: 20%;
+	color: white;
+    vertical-align: middle;
+}
+
+#right {
+    float:right;
+    height: 50%;
+    background: rgba(0,0,0,.3);
+    border-radius: 5px 5px 5px 5px;
+    top: 20%;
+    right: 8%;
+    color: white;
+
+}
+
+#right h1, #center h1, #left h1{
+	position: relative;
+	float: left;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	font-size: 4em;
+}
+

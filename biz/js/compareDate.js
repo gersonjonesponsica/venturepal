@@ -1,0 +1,1 @@
+function compareDate(e){var a;a=e.substring(0,10).replace(/-/g,"/");var t=(new Date).toJSON().slice(0,10);t=t.replace(/-/g,"/");e=new Date(a);var r=new Date(t),n=Math.abs(r.getTime()-e.getTime());return Math.ceil(n/864e5)}

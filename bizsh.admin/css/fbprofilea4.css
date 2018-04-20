@@ -1,0 +1,28 @@
+.fb-image-lg{
+    height: 250px !important;  
+}
+
+.fb-profile img.fb-image-lg{
+    margin-top: 60px;
+    width: 100%;
+}
+
+.fb-image-profile{
+    margin: -90px 10px 0px 50px;
+    width: 10%; 
+    border-radius: 50%;
+    border:5px solid #fff;
+}
+
+@media (max-width:768px){
+        
+    .fb-profile-text>h1{
+        font-weight: 700;
+        font-size:16px;
+    }
+
+    .fb-image-profile{
+        margin: -45px 10px 0px 25px;
+        width: 25%; 
+    }
+}
